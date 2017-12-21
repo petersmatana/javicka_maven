@@ -24,6 +24,8 @@ tady mi prijde ze maven vygeneruje jakousi j2ee strukturu projektu. a ignoruje,
 kdyz mu dam parametr groupId. aspon mi to tak ted prijde
 '
 COMMAND="mvn archetype:generate
+-DgroupId=cz.pkg
+-Dpackage=pkg
 -DartifactId=NazevProjektu
 -DarchetypeArtifactId=maven-archetype-j2ee-simple
 -DinteractiveMode=false"
