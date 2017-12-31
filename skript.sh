@@ -33,6 +33,7 @@ COMMAND=""
 
 COMMAND="mvn archetype:generate
 -DgroupId=cesta.k.balicku
+-Dpackage=pkg
 -DartifactId=NazevProjektu
 -DarchetypeArtifactId=maven-archetype-webapp
 -DinteractiveMode=false"
